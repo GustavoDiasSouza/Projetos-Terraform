@@ -3,6 +3,7 @@
 1- main.tf -> subistituir o 'key_name:' por sua chave par da AWS.
 2- Conferir a região que for executadar é a mesma da chave par.
 3- AMI utilizado é de ubuntu 22, disponivel no free tier -> ami-095413544ce52437d.
+4- colocar sua chave par junto dos arquivos.
 
 #Terraform
 
