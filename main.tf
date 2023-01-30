@@ -14,11 +14,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-830c94e3"
+  ami           = "ami-095413544ce52437d"
   instance_type = "t2.micro"
   key_name = "cursoAluraTerra"
-
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "Terraform & Ansible v2"
   }
 }
